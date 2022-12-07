@@ -60,12 +60,10 @@ footer {
     max-width: 1440px;
     background-color: black;
     color: #FFFFFF;
-    
 }
 
 header {
     padding-left: 122px;
-    
 }
 
 .container-foot {
@@ -80,7 +78,6 @@ main h1 {
     padding-top: 90px;
     margin: 0;
 
-  
 }
 
 .bg-black {
@@ -95,7 +92,6 @@ main h1 {
 .column .p1 {
     font-weight: 400;
     font-size: 24px;
-   
 }
 
 .footer h2 {
@@ -151,9 +147,6 @@ main h1 {
         max-width: 834px;
         max-height: 634px;
         margin: 0;
-       
-        
-    
     }
     
     main h1 {
@@ -162,15 +155,14 @@ main h1 {
         padding-left: 72px;
         padding-top: 56px;
         margin: 0;
-    
-      
+
     }
     
     .column .p1 {
         font-weight: 400;
         font-size: 14px;
         margin: 0;
-       
+ 
     }
     
     .footer h2 {
