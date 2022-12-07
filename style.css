@@ -46,13 +46,32 @@ img {
 main {
 
     padding-left: 122px;
+    max-width: 1440px;
 
 }
 
 section {
     padding-left: 122px;
+    max-width: 1440px;
 }
 
+footer {
+    padding-left: 122px;
+    max-width: 1440px;
+    background-color: black;
+    color: #FFFFFF;
+    
+}
+
+header {
+    padding-left: 122px;
+    
+}
+
+.container-foot {
+    padding-left: 122px;
+    max-width: 1440px;
+}
 main h1 {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
@@ -67,7 +86,6 @@ main h1 {
 .bg-black {
     background-color: black;
     color: #FFFFFF;
-    ;
 }
 
 .display-inline {
