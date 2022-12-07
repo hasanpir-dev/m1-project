@@ -62,12 +62,15 @@ footer {
     color: #FFFFFF;
 }
 
+
+
 header {
     padding-left: 122px;
 }
 
 .container-foot {
     padding-left: 122px;
+    padding-top: 50px;
     max-width: 1440px;
 }
 main h1 {
@@ -123,6 +126,10 @@ main h1 {
 }
 .column .image {
     max-width: 366px;
+}
+
+.leylacolumn {
+    yytryrtyry
 }
 @media (max-width: 830px) {
     .fnone {
