@@ -60,8 +60,12 @@ footer {
     max-width: 1440px;
     background-color: black;
     color: #FFFFFF;
+    padding-top: 145px;
+    padding-bottom: 45px;
     
 }
+
+
 
 header {
     padding-left: 122px;
@@ -70,6 +74,7 @@ header {
 
 .container-foot {
     padding-left: 122px;
+    padding-top: 50px;
     max-width: 1440px;
 }
 main h1 {
@@ -127,6 +132,10 @@ main h1 {
 }
 .column .image {
     max-width: 366px;
+}
+
+.leylacolumn {
+    yytryrtyry
 }
 @media (max-width: 830px) {
     .fnone {
