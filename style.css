@@ -15,7 +15,6 @@ img {
     max-width: 100%;
 }
 
-
 .justify-between {
     justify-content: space-between;
 }
@@ -57,22 +56,90 @@ section {
 
 footer {
     padding-left: 122px;
+    padding-top: 50px;
+    padding-bottom: 45px;
+    padding-right: 175px;
     max-width: 1440px;
     background-color: black;
     color: #FFFFFF;
 }
 
+.container-foot {
+    max-width: 1172px;
+}
+
+.f-left .logo {
+    max-width: 115px;
+}
+
+.social .instagram {
+    max-width: 33px;
+    margin-right: 18px;
+}
+.social .fb {
+    max-width: 32px;
+    margin-right: 21px;
+}
+.social .vk {
+    max-width: 35px;
+    margin-right: 25px;
+}
+
+.social {
+    max-height: 35px;
+    margin-bottom: 140px;
+    margin-top: 28px;
+    background-color: aqua;
+
+}
+
+.copyright p {
+    font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+/* line-height: 101.38%; */
+}
+
+.f-right {
+    margin-top: 10px;
+}
+.f-right p {
+font-family: 'Roboto', sans-serif;
+display: inline-block;
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 101.38%;
+/* margin-bottom: 16px; */
+}
+
+.f-right .phone img {
+    max-width: 27px;
+    max-height: 27px;
+    margin-right: 22px;
+    margin-bottom: 20px;
+
+}
+
+.f-right .mail img {
+    max-width: 27px;
+    max-height: 18px;
+margin-right: 22px;
+
+}
+
+
+
 
 
 header {
     padding-left: 122px;
+
 }
 
-.container-foot {
-    padding-left: 122px;
-    padding-top: 50px;
-    max-width: 1440px;
-}
+
+
 main h1 {
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
@@ -115,7 +182,6 @@ main h1 {
 
 .footer {
     padding-left: 125px;
-    padding-bottom: 170px;
     margin: auto;
     padding-top: 75px;
     
@@ -128,9 +194,7 @@ main h1 {
     max-width: 366px;
 }
 
-.leylacolumn {
-    yytryrtyry
-}
+
 @media (max-width: 830px) {
     .fnone {
         display: none;
@@ -200,7 +264,7 @@ main h1 {
     }
 
    
-}
+
 
 @media (max-width: 375px) {
     
