@@ -28,12 +28,6 @@ img {
 }
 /* footer margin*/
 
-.container-head {
-
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
 .row {
     
     display: flex;
@@ -41,6 +35,13 @@ img {
 
 }
 
+.display-inline {
+    display: inline;
+}
+
+.container-head {
+    margin: 0 auto;
+}
 
 main {
 
@@ -53,6 +54,8 @@ section {
     padding-left: 122px;
     max-width: 1440px;
 }
+
+/*footer*/
 
 footer {
     padding-left: 122px;
@@ -85,11 +88,13 @@ footer {
     margin-right: 25px;
 }
 
+.social .wp {
+    max-width: 34px;
+}
 .social {
     max-height: 35px;
     margin-bottom: 140px;
     margin-top: 28px;
-    background-color: aqua;
 
 }
 
@@ -129,7 +134,60 @@ margin-right: 22px;
 
 }
 
+/*section 2*/
 
+.begin {
+    background-color: #9DC9C8;
+    padding-top: 176px;
+    padding-bottom: 198px;
+}
+
+
+.begin h2 {
+    font-family: 'Roboto Slab', serif;
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 56px;
+margin-bottom: 66px;
+/* or 56px */
+
+}
+.price h4 {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 101.38%;
+}
+
+.price p {
+    font-weight: 400;
+font-size: 80px;
+line-height: 101.38%;
+margin-bottom: 78px;
+}
+
+.price-about {
+    max-width: 295px;
+    margin-right: 70px;
+}
+.price-about h4 {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 101.38%;
+margin-bottom: 16px;
+}
+
+.price-about p {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 101.38%;
+}
 
 
 
@@ -155,9 +213,7 @@ main h1 {
     color: #FFFFFF;
 }
 
-.display-inline {
-    display: inline;
-}
+
 
 .column .p1 {
     font-weight: 400;
@@ -195,152 +251,269 @@ main h1 {
 }
 
 
-@media (max-width: 830px) {
-    .fnone {
-        display: none;
-    }
+@media only screen and (max-width: 1279px) and (min-width: 992px) {
 
-    .container {
+    main {
+
+        padding-left: 70px;
+        max-width: 1440px;
+    
+    }
+    
+    section {
+        padding-left: 70px;
         max-width: 834px;
-        padding-left: 72px;
-        padding-right: 86px;
-        padding-top: 24px;
     }
     
-    .row {
-        display: flex;
-        flex-wrap: wrap;
-    
-    }
-    
+
+footer {
+    padding-left: 70px;
+    padding-top: 30px;
+    padding-bottom: 26px;
+    padding-right: 104px;
+    max-width: 834px;
+}
+
+.container-foot {
+    max-width: 1172px;
+}
+
+.f-left .logo {
+    max-width: 67px;
+}
+
+.social .instagram {
+    max-width: 19px;
+    margin-right: 14px;
+}
+.social .fb {
+    max-width: 18px;
+    margin-right: 8px;
+}
+.social .vk {
+    max-width: 20px;
+    margin-right: 14px;
+}
+
+.social .wp {
+    max-width: 20px;
+}
+.social {
+    max-height: 121px;
+    margin-bottom: 84px;
+    margin-top: 12px;
+
+}
+
+.copyright p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 101.38%;
+}
+
+.f-right {
+    margin-top: 2px;
+    margin-right: 2px;
+}
+.f-right p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 101.38%;
+}
+
+.f-right .phone img {
+    max-width: 16px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+
+}
+
+.f-right .mail img {
+    max-width: 15px;
+    margin-right: 13px;
+
+}
+
+/*section 2*/
+
+.begin {
+    padding-top: 103px;
+    padding-bottom: 118px;
+}
+
+
+.begin h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 101.38%;
+margin-bottom: 38px;
+/* or 56px */
+
+}
+.price h4 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 101.38%;
+}
+
+.price p {
+    font-weight: 400;
+font-size: 46px;
+line-height: 101.38%;
+margin-bottom: 46px;
+}
+
+.price-about {
+    max-width: 170px;
+    margin-right: 40px;
+}
+.price-about h4 {
+    font-weight: 400;
+font-size: 14px;
+line-height: 101.38%;
+margin-bottom: 8px;
+}
+
+.price-about p {
+font-weight: 400;
+font-size: 10px;
+line-height: 101.38%;
+}
+
+
+
+
+}
+
+
+@media (max-width: 991px) {
     
     main {
-        max-width: 834px;
-        max-height: 634px;
-        margin: 0;
-    }
-    
-    main h1 {
-        font-weight: 700;
-        font-size: 32px;
-        padding-left: 72px;
-        padding-top: 56px;
-        margin: 0;
 
-    }
-    
-    .column .p1 {
-        font-weight: 400;
-        font-size: 14px;
-        margin: 0;
- 
-    }
-    
-    .footer h2 {
-        font-weight: 700;
-        font-size: 15px;
-        margin: 0;
-        
-    }
-    
-    .row .p2 {
-        font-weight: 400;
-        font-size: 11px;
-        max-width: 100px;
-        max-height: 45px;
-        margin: 0px 55px 0px 0px;
+        padding-left: 34px;
+        max-width: 375px;
     
     }
     
-    .footer {
-        padding-left: 72px;
-        padding-bottom: 170px;
-        padding-top: 55px;
-
-
+    section {
+        padding-left: 34px;
+        max-width: 375px;
     }
-    .column .image {
-        max-width: 182px;
-    }
-
-   
-
-
-@media (max-width: 375px) {
+    footer {
+        padding-left: 38px;
+        padding-top: 23px;
+        padding-bottom: 18px;
+        padding-right: 189px;
+        max-width: 375px;
     
-    .fnone {
-        display: none;
-    }
-
-    .container {
-        max-width: 308px;
-        padding-left: 35px;
-        padding-right: 35px;
-      
     }
     
-    .row {
-        display: flex;
-        flex-wrap: wrap;
-    
-    }
-
-    .direction-column {
-        flex-direction: column;
+    .container-foot {
+        max-width: 394px;
     }
     
-    
-    main {
-        max-width: 308px;
-        max-width: 776px;
-
-       
+    .f-left .logo {
+        max-width: 53px;
     }
     
-    main h1 {
-        font-weight: 700;
-        font-size: 26px;
-        padding-left: 35px;
-        padding-top: 56px;
-    
-      
+    .social .instagram {
+        max-width: 15px;
+        margin-right: 8px;
+    }
+    .social .fb {
+        max-width: 15px;
+        margin-right: 9px;
+    }
+    .social .vk {
+        max-width: 16px;
+        margin-right: 11px;
     }
     
-    .column .p1 {
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 18px;
-       
+    .social .wp {
+        max-width: 15px;
+    }
+    .social {
+        margin-bottom: 47px;
+        margin-top: 13px;
+    
     }
     
-    .footer h2 {
-        font-weight: 700;
-        font-size: 12px;
-        line-height: 16px;
-    
-        
-    }
-    
-    .row .p2 {
+    .copyright p {
         font-weight: 400;
         font-size: 10px;
-        line-height: 13px;
-        max-width: 90px;
-        max-height: 45px;
-        margin: 30px 30px 0px 0px;
+        line-height: 101.38%;
+    }
+    
+    .f-right {
+        margin-top: 10px;
+    }
+    .f-right p {
+        font-weight: 400;
+font-size: 1.2rem;
+line-height: 101.38%;
+    }
+    
+    .f-right .phone img {
+        max-width: 12px;
+        margin-right: 10px;
+        margin-bottom: 11px;
     
     }
     
-    .footer {
-        padding-left: 35px;
-        padding-bottom: 110px;
-        padding-top: 25px;
-
-
+    .f-right .mail img {
+        max-width: 12px;
+        margin-right: 10px;
+    
     }
-    .column .image {
-        max-width: 170px;
+    
+    .container-foot {
+        margin-bottom: 49px;
     }
+    
+    /*section 2*/
 
-   
+.begin {
+    padding-top: 62px;
+    padding-bottom: 70px;
+}
+
+
+.begin h2 {
+    font-weight: 700;
+font-size: 2.6rem;
+line-height: 101.38%;
+margin-bottom: 28px;
+/* or 56px */
+
+}
+.price h4 {
+    font-weight: 400;
+font-size: 1.2rem;
+line-height: 101.38%;
+}
+
+.price p {
+    font-weight: 400;
+    font-size: 3.7rem;
+    line-height: 101.38%;
+}
+
+.price-about {
+    max-width: 140px;
+    margin-right: 30px;
+}
+.price-about h4 {
+    font-weight: 400;
+font-size: 1.2rem;
+line-height: 101.38%;
+margin-bottom: 6px;
+}
+
+.price-about p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 101.38%;
+    margin-bottom: 30px
+}
+
 }
