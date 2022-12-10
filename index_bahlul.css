@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+@media (min-width: 1280px) {
+    .my-container-bako {
+        margin-left: 5rem;
+    }
+
+    .container-title-bako {
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    .context-container {
+        display: flex;
+        justify-content: space-between;
+        max-width: 70vw;
+    }
+
+    .small-context-column {
+        width: 23vw;
+    }
+
+    .list-content-container {
+        max-width: 30vw;
+    }
+}
+
+@media (max-width: 1279px) and (min-width: 992px) {
+    .my-container-bako {
+        margin-left: 3.3em;
+    }
+
+    .container-title-bako {
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .context-container {
+        display: flex;
+        justify-content: space-between;
+        max-width: 70vw;
+    }
+
+    .small-context-column {
+        width: 23vw;
+    }
+
+    .list-content-container {
+        max-width: 30vw;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 320px) {
+    .my-container-bako {
+        margin-left: 1.25rem;
+    }
+
+    .container-title-bako {
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+
+
+    .context-container {
+        flex-direction: row;
+    }
+
+    .small-context-column {
+        width: 50vw;
+    }
+}
+
+.my-container-bako {
+    font-family: Roboto, sans-serif;
+    margin-bottom: 5rem
+}
+
+
+.small-context-column h3 {
+    color: #1E4681;
+}
