@@ -1,15 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+:root {
+    font-size: 62.5%;
+}
 
+.my-container-bako {
+    font-family: Roboto, sans-serif;
+    margin-bottom: 8rem
+}
 
+.list-content-container ul{
+   padding-left: 2rem; 
+}
 
 @media (min-width: 1280px) {
     .my-container-bako {
-        margin-left: 5rem;
+        margin-left: 8rem;
     }
 
     .container-title-bako {
         font-weight: 700;
-        font-size: 2rem;
+        font-size: 3.2rem;
     }
 
     .context-container {
@@ -19,47 +29,52 @@
     }
 
     .small-context-column {
-        width: 23vw;
+        width: 18vw;
+        font-size: 1.8rem;
     }
 
     .list-content-container {
-        max-width: 30vw;
+        max-width: 38vw;
+        font-size: 2.4rem;
     }
 }
 
 @media (max-width: 1279px) and (min-width: 992px) {
     .my-container-bako {
-        margin-left: 3.3em;
+        margin-left: 5.28em;
     }
 
     .container-title-bako {
         font-weight: 700;
-        font-size: 1.5rem;
+        font-size: 2.4rem;
     }
 
     .context-container {
         display: flex;
         justify-content: space-between;
-        max-width: 70vw;
+        max-width: 80vw;
     }
 
     .small-context-column {
-        width: 23vw;
+        width: 33vw;
+        margin-right: 1.6rem;
+        font-size: 1.1rem;
     }
 
     .list-content-container {
-        max-width: 30vw;
+        max-width: 45vw;
+        font-size: 1.4rem;
     }
 }
 
 @media (max-width: 991px) and (min-width: 320px) {
     .my-container-bako {
-        margin-left: 1.25rem;
+        margin-left: 2rem;
     }
 
     .container-title-bako {
         font-weight: 700;
-        font-size: 1.2rem;
+        font-size: 1.92rem;
     }
 
 
@@ -69,14 +84,15 @@
 
     .small-context-column {
         width: 50vw;
+        font-size: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .list-content-container {
+        font-size: 1.2rem;
+        width: 80vw;
     }
 }
-
-.my-container-bako {
-    font-family: Roboto, sans-serif;
-    margin-bottom: 5rem
-}
-
 
 .small-context-column h3 {
     color: #1E4681;
