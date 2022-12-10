@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    padding: 21px 121px;
+
+}
+.row{
+    width: 50%;
+    margin-top: 100px;
+}
+.row ul{
+display: flex ;
+justify-content: space-between;
+align-items: center;
+list-style: none;
+font-size: 1.25rem;
+}
+
+.row ul li{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.row-one{
+    margin-top: 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 5rem;
+
+}
+.row-one h1{
+    font-size: 5rem;
+    font-weight: 700;
+  
+}
+.row-one p{
+    font-size: 1.25rem;
+}
+.row-one .content{
+    width: 50%;
+}
+.row-two{
+margin-top: 67.62px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.news{
+    background-color: #1E4681;
+    width: 33%;
+    color: white;
+    padding: 1rem;
+    font-size: 25px;
+    border-radius: 5px;
+    height: fit-content;
+}
+.news .author{
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: flex-end !important;
+  
+}
+.container-head{
+    font-family: 'Roboto', sans-serif;
+}
+.row-three{
+    margin-top: 173px;
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+.row-three h2{
+    width: 365px;
+    height: 93px;
+    font-size: 55px;
+}
+.row-three p{
+    margin-top: 18px;
+    font-size: 24px;
+    width: 662px;
+    height: 374px;
+    
+
+}
+.column-sh img{
+    width: 314px;
+    height: 315px;
+}
+.row-for{
+    width: 80%;
+    margin-top: 94px;
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+.column-shsh img{
+    width: 232px;
+    height: 203px;
+}
+.column-shsh{
+    margin-right: 131px;
+}
+.row-k{
+    margin-right: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.row-k column-h{
+    font-weight: 700;
+    font-size: 24px;
+}
+.row-k column-hh{
+    font-weight: 700;
+    font-size: 24px;
+ }
+.row-k column-hhh{
+    font-weight: 700;
+    font-size: 24px; 
+ }
+.column-h p{
+    font-weight: 400;
+    font-size: 18px;
+}
+.column-hh p{
+    font-weight: 400;
+    font-size: 18px;
+}
+.column-hhh p{
+    font-weight: 400;
+    font-size: 18px;
+}
+ 
