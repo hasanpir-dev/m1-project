@@ -1,17 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
 body{
     padding: 21px 121px;
 
 }
-.row{
+.elm {
     width: 50%;
     margin-top: 100px;
 }
@@ -39,8 +33,13 @@ font-size: 20px;
 
 }
 .row-one h1{
-    font-size: 80px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
     font-weight: 700;
+    font-size: 80px;
+    line-height: 101.38%;
+    max-width: 568px;
+    
   
 }
 .row-one p{
@@ -124,26 +123,26 @@ align-items: center;
     font-weight: 700;
     font-size: 24px;
 }
-.row-k .column-hh{
+
+.column-h {
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 150px;
+    max-height: 85px;
+    margin: 0px 90px 0px 0px;
+}
+
+.column-h h3 {
     font-weight: 700;
-    font-size: 24px;
- }
-.row-k .column-hhh{
-    font-weight: 700;
-    font-size: 24px; 
- }
+    font-size: 25px;
+    line-height: 130%;
+}
 .column-h p{
     font-weight: 400;
     font-size: 18px;
+    max-width: 150px;
 }
-.column-hh p{
-    font-weight: 400;
-    font-size: 18px;
-}
-.column-hhh p{
-    font-weight: 400;
-    font-size: 18px;
-}
+
 
 @media (max-width:992px){
     header img{
