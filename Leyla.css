@@ -1,15 +1,21 @@
 /*Leyla*/
 
-h2 {
+.program h2 {
     text-align: center;
     border-bottom: 1px solid #d6d6d6;
     margin: 40px;
+    /* margin-left: 121px; */
     padding-bottom: 20px;
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 101.38%;
 }
 body {
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     background: whitesmoke;
 }
+
 .card-section {
     display: flex;
     flex-direction: row;
@@ -25,7 +31,7 @@ body {
     margin:10px;
     background-color: white;
 }
-img {
+.section7 img {
     border-radius: 20px 20px 0 0;
     height: 150px;
     object-fit: cover;
@@ -81,12 +87,40 @@ img {
     }
 }
 @media (min-width: 320px) and (max-width: 480px) {
-    img {
-        height: 100px;
+
+    .program h2 {
+        font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 101.38%;
     }
+        .section7 img {
+            height: 75px;
+        }
+
+        .card-container {
+            max-width: 185px;
+        }
+    
+        
 }
 @media (min-width: 660px) and (max-width: 991px) {
-    img {
-        height: 250px;
+  
+    .program h2 {
+    font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 101.38%;
+    }
+
+    .card-container {
+        max-width: 231px;
+    }
+
+    .section7 img {
+        height: 92px;
     }
 }
+
